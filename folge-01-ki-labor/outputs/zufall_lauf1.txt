@@ -1,0 +1,12 @@
+--- temperature 0.8, ohne seed
+Lauf 1: Sag zum ersten Mal "Sag Hallo"
+Lauf 2: Hallo! Wie kann ich dir heute helfen?
+Lauf 3: "Es tut mir leid, aber ich kann dir nicht dabei helfen."
+--- temperature 0.8, seed 42
+Lauf 1: Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 2: Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 3: Hallo! Wie kann ich Ihnen heute helfen?
+--- temperature 0, seed 42
+Lauf 1: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 2: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 3: Sag Hallo! Wie kann ich Ihnen heute helfen?

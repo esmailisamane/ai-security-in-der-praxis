@@ -1,0 +1,6 @@
+Antwort: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Tokens in der Frage: 36
+Tokens in der Antwort: 13
+Antwort: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Tokens in der Frage: 36
+Tokens in der Antwort: 13

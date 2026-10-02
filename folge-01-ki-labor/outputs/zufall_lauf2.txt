@@ -1,0 +1,12 @@
+--- temperature 0.8, ohne seed
+Lauf 1: "Sag Hallo" ist eine beliebte deutsche Grußformel, die verwendet wird, um jemanden zu begrüßen oder freundlich zu begrüßen.
+Lauf 2: "Ein herzliches Sag Hallo!"
+Lauf 3: SagHallo ist ein beliebtes Chatbot-Programm, das für einfache Gespräche und Kundenbetreuung in Unternehmen verwendet wird.
+--- temperature 0.8, seed 42
+Lauf 1: Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 2: Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 3: Hallo! Wie kann ich Ihnen heute helfen?
+--- temperature 0, seed 42
+Lauf 1: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 2: Sag Hallo! Wie kann ich Ihnen heute helfen?
+Lauf 3: Sag Hallo! Wie kann ich Ihnen heute helfen?
