@@ -1,4 +1,0 @@
-{
-  "description": "push-guard hooks module",
-  "modules": ["./register.ts"]
-}
