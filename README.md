@@ -20,6 +20,12 @@ wichtige zusätzliche Schichten, aber nicht das Fundament.
 
 Weitere Folgen kommen nach und nach dazu. Der Plan wird laufend aktualisiert.
 
+## KI-News mit Code
+
+| Datum | Thema | Ordner |
+|---|---|---|
+| 03.10.2026 | Claude Code Mods: eigener Wächter-Mod gegen Force-Push (mit echtem Test) | [news/2026-10-claude-code-mods](news/2026-10-claude-code-mods) |
+
 ## Voraussetzungen
 - Grundkenntnisse in Python
 - Python 3.10 oder neuer, Windows / macOS / Linux
