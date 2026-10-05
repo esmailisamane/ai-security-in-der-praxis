@@ -17,6 +17,7 @@ wichtige zusätzliche Schichten, aber nicht das Fundament.
 |---|---|---|
 | 0 | Worum geht es in diesem Kurs? (Einführung, ohne Code) | [folge-00-einfuehrung](folge-00-einfuehrung) |
 | 1 | Dein KI-Labor: Ollama, Modell, Python, temperature und seed | [folge-01-ki-labor](folge-01-ki-labor) |
+| 2 | Tokens & das nächste Token: was das Modell liest, Wortfilter vs. Tokens, logprobs | [folge-02-tokens](folge-02-tokens) |
 
 Weitere Folgen kommen nach und nach dazu. Der Plan wird laufend aktualisiert.
 

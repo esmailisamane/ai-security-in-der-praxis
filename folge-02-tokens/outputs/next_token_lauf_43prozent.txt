@@ -1,0 +1,6 @@
+gewählt: 'Ja'           | Kandidaten: 'Ja' 43%, 'Bitte' 20%, 'Um' 10%
+gewählt: ','            | Kandidaten: ',' 100%, ' natürlich' 0%, '!' 0%
+gewählt: ' das'         | Kandidaten: ' das' 63%, ' du' 9%, ' natürlich' 9%
+gewählt: ' ist'         | Kandidaten: ' ist' 91%, ' kann' 4%, ' geht' 3%
+gewählt: ' möglich'     | Kandidaten: ' möglich' 86%, ' leider' 4%, ' natürlich' 1%
+gewählt: '.'            | Kandidaten: '.' 55%, '!' 23%, ',' 21%

@@ -1,0 +1,18 @@
+GPT-4o nutzt: o200k_base 
+
+'Rabattcode'
+  Llama 3: ['R', 'ab', 'att', 'code']
+  GPT-4o:  ['Rab', 'att', 'code']
+
+'niemals'
+  Llama 3: ['ni', 'em', 'als']
+  GPT-4o:  ['niem', 'als']
+
+' niemals'
+  Llama 3: [' ni', 'em', 'als']
+  GPT-4o:  [' niemals']
+
+'Rückerstattungspolitik'
+  Llama 3: ['R', 'ü', 'cker', 'statt', 'ung', 'sp', 'olit', 'ik']
+  GPT-4o:  ['R', 'ück', 'erst', 'attung', 'spolit', 'ik']
+

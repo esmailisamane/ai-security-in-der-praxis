@@ -1,0 +1,4 @@
+'Welt' ['W', 'elt'] [54, 3903]
+' Welt' [' Welt'] [46066]
+'Welt ist schön' ['W', 'elt', ' ist', ' schön'] [54, 3903, 6127, 75864]
+(tokenizers 0.23.2, unsloth/Llama-3.2-3B-Instruct, 2026-10-04)

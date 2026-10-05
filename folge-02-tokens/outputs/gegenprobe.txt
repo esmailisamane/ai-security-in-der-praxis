@@ -1,0 +1,19 @@
+'Größe, Übermaß, Fußgängerüberweg'               unsere Zählung: 12  Ollama: 13  OK
+'Rindfleischetikettierungsüberwachungsaufgabenüb unsere Zählung: 22  Ollama: 23  OK
+'def f(x):\n    return x**2  # Kommentar'        unsere Zählung: 13  Ollama: 14  OK
+'🙂 Emoji 🚀 und ein Ä'                            unsere Zählung:  9  Ollama: 10  OK
+'https://example.com/a?b=1&c=2'                  unsere Zählung: 13  Ollama: 14  OK
+'   drei Leerzeichen vorne'                      unsere Zählung:  7  Ollama:  8  OK
+'12345678901234567890'                           unsere Zählung:  7  Ollama:  8  OK
+'ShopFix: Bestellung #A-1029 ist unterwegs.'     unsere Zählung: 15  Ollama: 16  OK
+'niemals'                                        unsere Zählung:  3  Ollama:  4  OK
+'Niemals'                                        unsere Zählung:  3  Ollama:  4  OK
+'NIEMALS'                                        unsere Zählung:  3  Ollama:  4  OK
+' niemals'                                       unsere Zählung:  3  Ollama:  4  OK
+
+12 von 12 stimmen überein
+'niemals'    ['ni', 'em', 'als']  [7907, 336, 1147]
+'Niemals'    ['N', 'iem', 'als']  [45, 27960, 1147]
+'NIEMALS'    ['NI', 'EM', 'ALS']  [15259, 2783, 47837]
+' niemals'   [' ni', 'em', 'als']  [13080, 336, 1147]
+Nummer des Start-Tokens <|begin_of_text|>: 128000

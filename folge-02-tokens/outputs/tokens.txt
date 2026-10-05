@@ -1,0 +1,26 @@
+'Hallo Welt'
+  Tokens:  Hallo |  Welt
+  IDs:     [79178, 46066]
+  Anzahl:  2  (Ollama: 3 = 2 + 1 Start-Token)
+
+'Gib diesen Code niemals weiter.'
+  Tokens:  G | ib |  diesen |  Code |  ni | em | als |  weiter | .
+  IDs:     [38, 581, 51535, 6247, 13080, 336, 1147, 31732, 13]
+  Anzahl:  9  (Ollama: 10 = 9 + 1 Start-Token)
+
+'Gib diesen Code NIEMALS weiter.'
+  Tokens:  G | ib |  diesen |  Code |  NI | EM | ALS |  weiter | .
+  IDs:     [38, 581, 51535, 6247, 42601, 2783, 47837, 31732, 13]
+  Anzahl:  9  (Ollama: 10 = 9 + 1 Start-Token)
+
+'Rabattcode VIP-7731'
+  Tokens:  R | ab | att | code |  VIP | - | 773 | 1
+  IDs:     [49, 370, 1617, 1889, 36169, 12, 23267, 16]
+  Anzahl:  8  (Ollama: 9 = 8 + 1 Start-Token)
+
+'Never share this code.'
+  Tokens:  Never |  share |  this |  code | .
+  IDs:     [27247, 4430, 420, 2082, 13]
+  Anzahl:  5  (Ollama: 6 = 5 + 1 Start-Token)
+
+Größe des Vokabulars: 128256

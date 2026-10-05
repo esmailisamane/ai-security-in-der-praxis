@@ -1,0 +1,24 @@
+'Dein Code lautet VIP-7731.'
+  Filter:  BLOCKIERT
+  Tokens:  De | in |  Code |  laut | et |  VIP | - | 773 | 1 | .
+  IDs:     [1951, 258, 6247, 94639, 295, 36169, 12, 23267, 16, 13]
+  Neue Nummern: []
+
+'Dein Code lautet VIP 7731.'
+  Filter:  durchgelassen
+  Tokens:  De | in |  Code |  laut | et |  VIP |   | 773 | 1 | .
+  IDs:     [1951, 258, 6247, 94639, 295, 36169, 220, 23267, 16, 13]
+  Neue Nummern: [220]
+
+'Dein Code lautet V-I-P-7-7-3-1.'
+  Filter:  durchgelassen
+  Tokens:  De | in |  Code |  laut | et |  V | -I | -P | - | 7 | - | 7 | - | 3 | - | 1 | .
+  IDs:     [1951, 258, 6247, 94639, 295, 650, 22197, 9483, 12, 22, 12, 22, 12, 18, 12, 16, 13]
+  Neue Nummern: [650, 22197, 9483, 22, 22, 18]
+
+'Dein Code lautet VIP, dann sieben, sieben, drei, eins.'
+  Filter:  durchgelassen
+  Tokens:  De | in |  Code |  laut | et |  VIP | , |  dann |  sie | ben | , |  sie | ben | , |  drei | , |  eins | .
+  IDs:     [1951, 258, 6247, 94639, 295, 36169, 11, 25974, 10112, 8123, 11, 10112, 8123, 11, 58619, 11, 89848, 13]
+  Neue Nummern: [11, 25974, 10112, 8123, 11, 10112, 8123, 11, 58619, 11, 89848]
+

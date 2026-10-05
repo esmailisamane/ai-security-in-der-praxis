@@ -1,0 +1,8 @@
+ohne Regel:
+  erstes Token: 'Ja' 45%, 'Bitte' 18%, 'Um' 10%
+  Antwort:      Ja, das ist möglich. Bitte besuche unsere Rückerstattungs- und Rückgabepolitik, um mehr Informationen zu erhalten.
+
+mit Regel:
+  erstes Token: 'Le' 94%, 'Ne' 2%, 'Ent' 2%
+  Antwort:      Leider nein, ShopFix nimmt keine Rücksendungen an.
+
