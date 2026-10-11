@@ -1,0 +1,12 @@
+﻿Ollama zählt: 36 Tokens
+
+Start-Token          1  <|begin_of_text|>
+Kopf: system         4  <|start_header_id|> | system | <|end_header_id|> | \n\n
+Datumszeile         10  Cut | ting |  Knowledge |  Date | : |  December |   | 202 | 3 | \n\n
+Ende der Nachricht   1  <|eot_id|>
+Kopf: user           4  <|start_header_id|> | user | <|end_header_id|> | \n\n
+UNSERE FRAGE        11  S | ag |  Hal | lo |  in |  einem |  kur | zen |  Sat | z | .
+Ende der Nachricht   1  <|eot_id|>
+Kopf: assistant      4  <|start_header_id|> | assistant | <|end_header_id|> | \n\n
+
+Summe: 36 Tokens = 11 (unsere Frage) + 25 (Rahmen vom Template)

@@ -24,3 +24,8 @@ Fachbegriffe aus dem Kurs, kurz erklärt. Wird mit jeder Folge erweitert.
 | **Wahrscheinlichkeit / logprobs** | Für jedes mögliche nächste Token berechnet das Modell eine Wahrscheinlichkeit. `logprobs` liefert sie als Logarithmus; `math.exp` macht wieder Prozent daraus. |
 | **Autoregressiv** | Das Modell schreibt Token für Token: Jedes neue Token wird angehängt, dann wird das nächste berechnet. |
 | **Halluzination** | Das Modell schreibt etwas Erfundenes, das plausibel klingt – z. B. eine Rückgaberegel, die es gar nicht gibt. |
+| **Rolle** | Etikett einer Nachricht: `system` (Regeln der Entwickler), `user` (Nutzer), `assistant` (Antworten des Modells). Ein Etikett, keine Sicherheitsgrenze (Folge 3). |
+| **Chat-Template** | Vorlage, die alle Nachrichten mit ihren Rollen zu EINEM Text zusammensetzt, bevor das Modell ihn bekommt. Jede Modellfamilie hat ihr eigenes Format. |
+| **Spezial-Token** | Token mit Sonderbedeutung, z. B. `<\|start_header_id\|>`, `<\|end_header_id\|>`, `<\|eot_id\|>` (end of turn) bei Llama 3. Sie markieren Anfang und Ende der Nachrichten. |
+| **Gefälschte Rollen** | Fremder Text, der selbst wie ein Gespräch mit Rollen aussieht (mit oder ohne Spezial-Tokens) und das Modell so zu anderem Verhalten bringt. |
+| **Ein-Token-Test** | Prüfung, ob der eigene Stack eine getippte Markierung als Spezial-Token zählt (1 Token) oder als normalen Text (mehrere Tokens). |

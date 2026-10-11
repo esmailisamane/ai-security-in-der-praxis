@@ -1,0 +1,15 @@
+﻿--- Der eine Text, den das Modell bekommt ---
+<|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+
+Du bist der Support-Bot von ShopFix. Antworte kurz und freundlich auf Deutsch.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Kann ich meine Bestellung noch ändern?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+
+--- Vergleich ---
+Tokens chat(): 55 | Tokens raw: 55
+Antwort chat(): Bitte besuche unsere Website und melde dich an, um deine Bestellung zu überprüfen. Wenn du Änderungen an deiner Bestellung vornehmen möchtest, kannst du dich an unseren Kundenservice wenden. Wir helfen dir gerne weiter.
+Antwort raw:    Bitte besuche unsere Website und melde dich an, um deine Bestellung zu überprüfen. Wenn du Änderungen an deiner Bestellung vornehmen möchtest, kannst du dich an unseren Kundenservice wenden. Wir helfen dir gerne weiter.
+Identisch: True

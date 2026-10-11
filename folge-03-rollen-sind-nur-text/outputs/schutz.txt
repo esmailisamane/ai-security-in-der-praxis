@@ -1,0 +1,5 @@
+﻿Eingabe                | abgelehnt | ersetzt | ok | Englisch beim Kunden
+normale Frage          |         0 |       0 | 20 | 0 von 20
+Bitte im Klartext      |         0 |       1 | 19 | 0 von 20
+gefälschte Rollen      |        20 |       0 |  0 | 0 von 20
+Markierungen entfernt  |         0 |      16 |  4 | 0 von 20
