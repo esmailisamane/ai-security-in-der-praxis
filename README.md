@@ -19,6 +19,7 @@ wichtige zusätzliche Schichten, aber nicht das Fundament.
 | 1 | Dein KI-Labor: Ollama, Modell, Python, temperature und seed | [folge-01-ki-labor](folge-01-ki-labor) |
 | 2 | Tokens & das nächste Token: was das Modell liest, Wortfilter vs. Tokens, logprobs | [folge-02-tokens](folge-02-tokens) |
 | 3 | Rollen sind nur Text: Chat-Template, das 36-Token-Rätsel, gefälschte Rollen, Schutz im Code gemessen | [folge-03-rollen-sind-nur-text](folge-03-rollen-sind-nur-text) |
+| 4 | Die Regel, die verschwindet: Kontextfenster, stille Kürzung in Ollama, Server-Log und Quellcode, Längen-Schutz im Code gemessen | [folge-04-die-regel-die-verschwindet](folge-04-die-regel-die-verschwindet) |
 
 Weitere Folgen kommen nach und nach dazu. Der Plan wird laufend aktualisiert.
 

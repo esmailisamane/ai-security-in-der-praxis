@@ -1,0 +1,6 @@
+﻿num_keep | laut Ollama | Regel befolgt
+       4 |        2050 |  0 von 10
+      71 |        2084 | 10 von 10
+
+truncate=false -> HTTP 400
+{"error":"{\"error\":{\"code\":400,\"message\":\"request (4593 tokens) exceeds the available context size (4096 tokens), try increasing it\",\"type\":\"exceed_context_size_error\",\"n_prompt_tokens\":4593,\"n_ctx\":4096}}"}

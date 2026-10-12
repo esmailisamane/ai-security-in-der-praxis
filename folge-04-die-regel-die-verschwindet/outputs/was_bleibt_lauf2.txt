@@ -1,0 +1,13 @@
+Ganzer Prompt: 4593 Tokens - das Fenster hat 4096
+Nach der Kürzung: 2050 Tokens - weggeworfen: 2543
+
+So beginnt der Text, den das Modell noch sieht:
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>sendungen sind innerhalb von 30 Tagen möglich.
+Abschnitt 139: Rücksendungen sind innerhalb von 30 Tagen möglich.
+Abschnitt 140: Rücksendungen
+
+Steht unsere Regel noch darin? False
+
+chat(): 2050 Tokens | Hier ist ein kurzes Gedicht über Katzen:  "Katzen, sanft und schlau, schleichen durch die Nacht, ohne Auf
+roh   : 2050 Tokens | Hier ist ein kurzes Gedicht über Katzen:  "Katzen, sanft und schlau, schleichen durch die Nacht, ohne Auf
+Identisch: True

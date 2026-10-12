@@ -1,0 +1,3 @@
+﻿Zeilen | Tokens laut Ollama | richtig (Nein) | eine Antwort
+   100 |               1909 | 10 von 10      | Nein. (Abschnitt 7)
+   250 |               2050 |  2 von 10      | Ja, aber nur innerhalb von 30 Tagen. (Abschnitt 140)

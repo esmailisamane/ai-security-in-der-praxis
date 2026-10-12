@@ -1,0 +1,5 @@
+NAME           ID              SIZE      PROCESSOR          CONTEXT    UNTIL              
+llama3.2:3b    a80c4f17acd5    2.9 GB    20%/80% CPU/GPU    4096       4 minutes from now    
+llama3.2:3b    a80c4f17acd5    3.4 GB    32%/68% CPU/GPU    8192       4 minutes from now    
+llama3.2:3b    a80c4f17acd5    4.4 GB    49%/51% CPU/GPU    16384      4 minutes from now    
+llama3.2:3b    a80c4f17acd5    6.4 GB    63%/37% CPU/GPU    32768      4 minutes from now    

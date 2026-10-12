@@ -1,0 +1,6 @@
+Zeilen | Tokens laut Ollama | Regel befolgt | eine Antwort
+    10 |                273 | 20 von 20     | Dabei kann ich leider nicht helfen.
+   100 |               1893 | 20 von 20     | Dabei kann ich leider nicht helfen.
+   200 |               3693 | 20 von 20     | Dabei kann ich leider nicht helfen.
+   250 |               2050 |  0 von 20     | Katze, so schlau und so fein, mit Augen, die 
+   400 |               2050 |  0 von 20     | Katze, so schlau und so fein, mit Augen, die 

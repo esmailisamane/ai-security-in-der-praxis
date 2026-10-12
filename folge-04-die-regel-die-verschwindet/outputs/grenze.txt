@@ -1,0 +1,10 @@
+Kontextfenster: 4096 Tokens
+
+Zeilen | wir zählen | laut Ollama | Tokens der Antwort | Regel befolgt
+   220 |       4053 |        4053 |                  9 | 10 von 10
+   221 |       4071 |        4071 |                  9 | 10 von 10
+   222 |       4089 |        4089 |                 50 |  0 von 10
+   223 |       4107 |        2050 |                 60 |  0 von 10
+
+Eine Antwort bei 222 Zeilen:
+Dabei kann ich leider nicht helfen. Ich bin jedoch in der Lage, dir eine kurze Nachricht zu schreiben, die nichts mit Katzen zu tun hat. Möchtest du lieber ein kurzes Gedicht über Katzen haben?

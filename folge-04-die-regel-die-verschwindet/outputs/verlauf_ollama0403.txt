@@ -1,0 +1,5 @@
+Runden | letzte Frage   | wir zählen | laut Ollama | richtig    | eine Antwort
+    40 | Bestellnummer? |       3207 |        3207 | 5 von 5  | Du hast mir die Bestellnummer 48213 genannt.
+    40 | Katzengedicht  |       3206 |        3206 | 5 von 5  | Dabei kann ich leider nicht helfen.
+    60 | Bestellnummer? |       4747 |        4078 | 0 von 5  | Du hast mir Artikel 10 genannt.
+    60 | Katzengedicht  |       4746 |        2050 | 0 von 5  | Hier ist ein kurzes Gedicht über Katzen:  Zwei Aug

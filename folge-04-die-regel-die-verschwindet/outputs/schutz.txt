@@ -1,0 +1,10 @@
+﻿Fenster 4096 - Antwort 300 = Grenze 3796 Tokens
+
+Zeilen | wir zählen | abgelehnt | beantwortet | Regel gebrochen
+    10 |        273 |         0 |          20 | 0 von 20
+   100 |       1893 |         0 |          20 | 0 von 20
+   200 |       3693 |         0 |          20 | 0 von 20
+   222 |       4089 |        20 |           0 | 0 von 20
+   223 |       4107 |        20 |           0 | 0 von 20
+   250 |       4593 |        20 |           0 | 0 von 20
+   400 |       7293 |        20 |           0 | 0 von 20

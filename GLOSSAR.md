@@ -29,3 +29,10 @@ Fachbegriffe aus dem Kurs, kurz erklärt. Wird mit jeder Folge erweitert.
 | **Spezial-Token** | Token mit Sonderbedeutung, z. B. `<\|start_header_id\|>`, `<\|end_header_id\|>`, `<\|eot_id\|>` (end of turn) bei Llama 3. Sie markieren Anfang und Ende der Nachrichten. |
 | **Gefälschte Rollen** | Fremder Text, der selbst wie ein Gespräch mit Rollen aussieht (mit oder ohne Spezial-Tokens) und das Modell so zu anderem Verhalten bringt. |
 | **Ein-Token-Test** | Prüfung, ob der eigene Stack eine getippte Markierung als Spezial-Token zählt (1 Token) oder als normalen Text (mehrere Tokens). |
+| **Kontextfenster (Context Window)** | Alles, was ein Modell beim Antworten vor Augen hat: Regeln, Gespräch, Dokumente – und die Antwort, die es gerade schreibt. Gemessen in Tokens (Folge 4). |
+| **num_ctx / Context Length** | Größe des Kontextfensters, die der Server dem Modell gibt. Bei Ollama oft 4096, obwohl das Modell mehr könnte. Anzeigen: `ollama ps`, Spalte CONTEXT. |
+| **Stille Kürzung (Truncation)** | Ist eine Anfrage länger als das Fenster, kürzt Ollama sie ohne Fehlermeldung: Es bleiben die ersten `num_keep` Tokens und das Ende. Nur im Server-Log steht `truncating input prompt`. |
+| **num_keep** | So viele Tokens vom Anfang bleiben bei einer Kürzung stehen (Standard: 4). |
+| **Context Shift** | Läuft das Fenster beim Schreiben der Antwort voll, wirft Ollama die vordere Hälfte weg und schreibt weiter – auch dabei kann der System-Prompt verloren gehen. |
+| **Antwort-Budget** | Platz im Kontextfenster, den der eigene Code für die Antwort freihält: Grenze für die Eingabe = Fenster minus Budget. |
+| **Längen-Schutz** | Prüfung im eigenen Code: Tokens vor dem Senden zählen, zu lange Anfragen ablehnen statt still kürzen lassen, nach der Antwort `prompt_eval_count` nachprüfen. |
