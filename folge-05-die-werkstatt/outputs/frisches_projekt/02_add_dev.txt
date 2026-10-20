@@ -1,0 +1,10 @@
+Resolved 73 packages in 264ms
+   Building shopfix @ file:///C:/kurs/shopfix
+      Built shopfix @ file:///C:/kurs/shopfix
+Prepared 1 package in 22ms
+Uninstalled 1 package in 2ms
+Installed 4 packages in 67ms
+ + iniconfig==2.3.1
+ + pluggy==1.7.0
+ + pytest==9.1.1
+ ~ shopfix==0.1.0 (from file:///C:/kurs/shopfix)

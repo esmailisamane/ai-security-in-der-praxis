@@ -20,6 +20,7 @@ wichtige zusätzliche Schichten, aber nicht das Fundament.
 | 2 | Tokens & das nächste Token: was das Modell liest, Wortfilter vs. Tokens, logprobs | [folge-02-tokens](folge-02-tokens) |
 | 3 | Rollen sind nur Text: Chat-Template, das 36-Token-Rätsel, gefälschte Rollen, Schutz im Code gemessen | [folge-03-rollen-sind-nur-text](folge-03-rollen-sind-nur-text) |
 | 4 | Die Regel, die verschwindet: Kontextfenster, stille Kürzung in Ollama, Server-Log und Quellcode, Längen-Schutz im Code gemessen | [folge-04-die-regel-die-verschwindet](folge-04-die-regel-die-verschwindet) |
+| 5 | Die Werkstatt (Modul 1): ShopFix v0 mit uv, pytest und FastAPI, richtig messen (Quote mit 95-%-Bereich), die Scorecard als Startwert · [Checkliste Modul 1](checklisten/modul-1-werkstatt.md) | [folge-05-die-werkstatt](folge-05-die-werkstatt) |
 
 Weitere Folgen kommen nach und nach dazu. Der Plan wird laufend aktualisiert.
 

@@ -36,3 +36,21 @@ Fachbegriffe aus dem Kurs, kurz erklärt. Wird mit jeder Folge erweitert.
 | **Context Shift** | Läuft das Fenster beim Schreiben der Antwort voll, wirft Ollama die vordere Hälfte weg und schreibt weiter – auch dabei kann der System-Prompt verloren gehen. |
 | **Antwort-Budget** | Platz im Kontextfenster, den der eigene Code für die Antwort freihält: Grenze für die Eingabe = Fenster minus Budget. |
 | **Längen-Schutz** | Prüfung im eigenen Code: Tokens vor dem Senden zählen, zu lange Anfragen ablehnen statt still kürzen lassen, nach der Antwort `prompt_eval_count` nachprüfen. |
+| **uv** | Werkzeug für Python-Projekte: legt die virtuelle Umgebung an, installiert Pakete und hält ihre genauen Versionen in `uv.lock` fest (Folge 5). |
+| **pyproject.toml** | Der „Steckbrief“ eines Python-Projekts: Name, Python-Version, Pakete und Einstellungen für Werkzeuge wie pytest. |
+| **src-Layout** | Der Code liegt in `src/<paket>/`, die Tests in `tests/`. So prüfen die Tests das installierte Paket – von der pytest-Dokumentation empfohlen. |
+| **Umgebungsvariable** | Ein Wert, der außerhalb des Codes gesetzt wird (im Terminal oder auf dem Server). So läuft derselbe Code mit anderen Einstellungen. |
+| **pytest** | Verbreitetes Test-Werkzeug für Python. Ein Test ist eine Funktion, deren Name mit `test` beginnt. |
+| **assert** | „Stelle sicher“: Die Bedingung dahinter muss wahr sein, sonst schlägt der Test fehl und pytest zeigt den echten Wert. |
+| **Marker** | Etikett für Tests, z. B. `@pytest.mark.modell`; mit `-m "not modell"` lassen sich markierte Tests auslassen. |
+| **parametrize** | pytest-Werkzeug, das einen Test für mehrere Werte ausführt, z. B. für die Seeds 1 bis 20. |
+| **Flaky Test (wackeliger Test)** | Ein Test, der mal besteht und mal nicht. Bei Sprachmodellen schwankt das Modell selbst – deshalb prüft man dort Quoten. |
+| **FastAPI** | Python-Bibliothek für Web-Anwendungen und Schnittstellen; `fastapi dev` startet einen Entwicklungs-Server. |
+| **Endpunkt** | Eine Adresse auf dem Server, an die ein Programm oder der Browser etwas schicken kann, z. B. `POST /chat`. |
+| **TestClient / Attrappe** | Der TestClient spielt den Browser ohne echten Server; eine Attrappe (Mock) ersetzt beim Testen ein Teil, z. B. das Modell. |
+| **127.0.0.1 / 0.0.0.0** | 127.0.0.1 = nur der eigene Rechner kommt an die App. 0.0.0.0 = die App lauscht auf allen Netzwerk-Adressen (z. B. im WLAN erreichbar). |
+| **Quote** | „x von n“: wie oft etwas eingetreten ist, z. B. 96 von 100 Läufen. |
+| **Konfidenzintervall (Bereich)** | Der Bereich, in dem die wahre Quote mit großer Sicherheit liegt. 95-%-Bereich: fängt die wahre Quote ungefähr bei 19 von 20 Messungen ein. |
+| **Wilson-Intervall** | Rechenverfahren für den Bereich einer Quote (Wilson, 1927), empfohlen auch bei kleinen Zahlen und bei 0 oder n Treffern. |
+| **Scorecard** | Feste Sammlung harmloser Angriffe und normaler Fragen, die nach jedem Modul neu gemessen wird: Angriffs-Quote, Fehlalarme, Nutzen (Folge 5). |
+| **Fehlalarm** | Ein normaler Nutzer wird zu Unrecht abgewiesen. Ein Schutz, der das oft tut, ist selbst ein Fehler. |

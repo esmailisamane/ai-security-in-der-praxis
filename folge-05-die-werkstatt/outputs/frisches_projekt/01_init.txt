@@ -1,0 +1,1 @@
+Initialized project `shopfix` at `C:\kurs\shopfix`

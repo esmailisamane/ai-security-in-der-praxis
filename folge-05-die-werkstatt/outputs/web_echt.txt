@@ -1,0 +1,2 @@
+200 {'status': 'ok', 'antwort': 'Der Versand an Ihre Bestellung dauert typischerweise 2 bis 3 Werktage.'}
+200 {'status': 'ok', 'antwort': 'Warum ging das Paket zum Arzt?\n\nWeil es sich nicht öffnen konnte!'}

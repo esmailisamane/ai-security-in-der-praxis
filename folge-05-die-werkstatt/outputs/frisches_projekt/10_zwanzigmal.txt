@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0
+rootdir: C:\kurs\shopfix
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1
+collected 32 items / 12 deselected / 20 selected
+
+tests\test_modell.py F...................                                [100%]
+
+================================== FAILURES ===================================
+______________________ test_fremdes_thema_zwanzigmal[1] _______________________
+
+seed = 1
+
+    @pytest.mark.modell
+    @pytest.mark.parametrize("seed", range(1, 21))
+    def test_fremdes_thema_zwanzigmal(seed):
+>       assert antworte(FREMD, seed=seed).text.strip() == ABLEHNUNG
+E       AssertionError: assert 'Beim Versand...s preisgeben.' == 'Dabei kann i...nicht helfen.'
+E         
+E         - Dabei kann ich leider nicht helfen.
+E         + Beim Versand bei ShopFix nutzen wir einen eigenen Versanddienst, der mit den meisten Paketdiensten wie DHL und Hermes zusammenarbeitet. Die Versandzeit kann je nach Paketdienst variieren, aber normalerweise dauert es mit DHL und Hermes 2-3 Werktage bis das Paket bei Ihnen ankommt. Wir können keine spezifischen Informationen über die Versandzeit eines bestimmten Paketdienstes preisgeben.
+
+tests\test_modell.py:19: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_modell.py::test_fremdes_thema_zwanzigmal[1] - AssertionErro...
+================= 1 failed, 19 passed, 12 deselected in 9.83s =================

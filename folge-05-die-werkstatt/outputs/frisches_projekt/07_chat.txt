@@ -1,0 +1,1 @@
+﻿{"status":"ok","antwort":"Der Versand bei einer Bestellung bei ShopFix dauert in der Regel 2 bis 3 Werktage."}

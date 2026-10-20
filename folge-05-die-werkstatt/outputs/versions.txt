@@ -1,0 +1,13 @@
+ollama version is 0.35.0
+ollama version is 0.40.6   (portabel, Gegencheck: *_ollama0406*)
+Python 3.12.14
+Name: fastapi Version: 0.143.5
+Name: fastapi-cli Version: 0.0.32
+Name: uvicorn Version: 0.54.0
+Name: pydantic Version: 2.14.1
+Name: pytest Version: 9.1.1
+Name: httpx Version: 0.28.1
+Name: ollama Version: 0.6.3
+Name: tokenizers Version: 0.23.3
+uv 0.12.21 (7af826859 2026-09-29 x86_64-pc-windows-msvc)
+Modell llama3.2:3b (a80c4f17acd5), GPU 4 GB, 2026-10-18

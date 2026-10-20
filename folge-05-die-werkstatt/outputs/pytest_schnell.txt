@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- .\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: .
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1
+collecting ... collected 32 items / 22 deselected / 10 selected
+
+tests/test_messen.py::test_wilson_bekannte_werte PASSED                  [ 10%]
+tests/test_messen.py::test_ein_lauf_sagt_fast_nichts PASSED              [ 20%]
+tests/test_messen.py::test_quote_text PASSED                             [ 30%]
+tests/test_schutz.py::test_rahmen_hat_25_tokens PASSED                   [ 40%]
+tests/test_schutz.py::test_gefaelschte_rolle_wird_abgelehnt PASSED       [ 50%]
+tests/test_schutz.py::test_zu_langer_text_wird_abgelehnt PASSED          [ 60%]
+tests/test_web.py::test_chat_gibt_status_und_antwort PASSED              [ 70%]
+tests/test_web.py::test_leere_nachricht_wird_abgewiesen PASSED           [ 80%]
+tests/test_web.py::test_riesige_nachricht_wird_abgewiesen PASSED         [ 90%]
+tests/test_web.py::test_seite_zeigt_antwort_als_text PASSED              [100%]
+
+====================== 10 passed, 22 deselected in 2.78s ======================
