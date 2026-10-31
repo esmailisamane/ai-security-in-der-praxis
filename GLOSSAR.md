@@ -54,3 +54,11 @@ Fachbegriffe aus dem Kurs, kurz erklärt. Wird mit jeder Folge erweitert.
 | **Wilson-Intervall** | Rechenverfahren für den Bereich einer Quote (Wilson, 1927), empfohlen auch bei kleinen Zahlen und bei 0 oder n Treffern. |
 | **Scorecard** | Feste Sammlung harmloser Angriffe und normaler Fragen, die nach jedem Modul neu gemessen wird: Angriffs-Quote, Fehlalarme, Nutzen (Folge 5). |
 | **Fehlalarm** | Ein normaler Nutzer wird zu Unrecht abgewiesen. Ein Schutz, der das oft tut, ist selbst ein Fehler. |
+| **Jailbreak** | Angriff, der die Beschränkungen umgehen soll, die der Hersteller dem Modell im Training beigebracht hat (z. B. das Ablehnen von Betrugs-Anleitungen). Schutz: Training des Herstellers (Folge 6). |
+| **Direkte Prompt Injection** | Der Angreifer schreibt selbst in den Chat und überstimmt mit seiner Nachricht die Anweisungen des Entwicklers (NIST AI 100-2e2025, 3.3). |
+| **Indirekte Prompt Injection** | Die Anweisung steckt in fremden Inhalten, die das Modell liest – Webseiten, Dokumente, Bewertungen (Folge 7). |
+| **Erkennungswort (Canary)** | Harmloses, auffälliges Wort als Angriffsziel im Test (bei uns „ANANAS“). Taucht es auf, ist die Regel gebrochen – ohne echten Schaden. |
+| **Hidden Context Exposure** | OWASP LLM08:2026: Versteckter Kontext (System-Prompt, interne Regeln, Werkzeug-Beschreibungen) wird herausgelockt oder erschlossen. Grundsatz: Nichts im Kontext ist ein Geheimnis. |
+| **Versteckter Kontext** | Alles, was das Modell sieht, der Nutzer aber nicht: System-Prompt, Anweisungen des Entwicklers, interne Regeln, Werkzeug-Beschreibungen. |
+| **Plakat-Test** | Unsere Faustregel: Im Prompt darf nur stehen, was auch auf einem Plakat im Schaufenster stehen dürfte (Folge 6). |
+| **Ausgabe-Filter** | Code, der die Antwort des Modells prüft, bevor sie den Nutzer erreicht. Hilft als Notbremse, kennt aber nur die Muster, die man ihm nennt, und erzeugt Fehlalarme. |

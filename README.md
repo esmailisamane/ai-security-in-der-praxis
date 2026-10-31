@@ -21,6 +21,7 @@ wichtige zusätzliche Schichten, aber nicht das Fundament.
 | 3 | Rollen sind nur Text: Chat-Template, das 36-Token-Rätsel, gefälschte Rollen, Schutz im Code gemessen | [folge-03-rollen-sind-nur-text](folge-03-rollen-sind-nur-text) |
 | 4 | Die Regel, die verschwindet: Kontextfenster, stille Kürzung in Ollama, Server-Log und Quellcode, Längen-Schutz im Code gemessen | [folge-04-die-regel-die-verschwindet](folge-04-die-regel-die-verschwindet) |
 | 5 | Die Werkstatt (Modul 1): ShopFix v0 mit uv, pytest und FastAPI, richtig messen (Quote mit 95-%-Bereich), die Scorecard als Startwert · [Checkliste Modul 1](checklisten/modul-1-werkstatt.md) | [folge-05-die-werkstatt](folge-05-die-werkstatt) |
+| 6 | Jailbreak oder Prompt Injection? (Modul 2, Teil 1): wessen Regel gebrochen wird, 8 direkte Angriffe gemessen, Hidden Context Exposure (OWASP LLM08:2026) – Verbot, Filter oder Geheimnis raus | [folge-06-jailbreak-oder-injection](folge-06-jailbreak-oder-injection) |
 
 Weitere Folgen kommen nach und nach dazu. Der Plan wird laufend aktualisiert.
 
